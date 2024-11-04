@@ -22,8 +22,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - 1.Azure VM Setup and Configuration
 - 2.Database Setup
 - 2.Web Server Installation
-- 4.DNS and SSL Configuration
-- 5.Backup and Monitoring Setup
 
 <h2>Installation Steps</h2>
 
