@@ -6,9 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,11 +19,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- 1.Azure VM Setup and Configuration
+- 2.Database Setup
+- 2.Web Server Installation
+- 4.DNS and SSL Configuration
+- 5.Backup and Monitoring Setup
 
 <h2>Installation Steps</h2>
 
@@ -34,7 +31,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 1: Set Up the Azure VM
+Create an Azure VM: Use Azure Portal or CLI to create a VM with Ubuntu or Windows Server (choose based on your osTicket requirements).
+Select VM Size: Pick a size that meets the needs of the ticketing system, typically starting with a moderate size like Standard_B2s.
+Secure Access: Set up Network Security Groups (NSGs) to allow HTTP/HTTPS traffic for web access and restrict SSH/RDP access to secure IPs.
 </p>
 <br />
 
@@ -42,7 +42,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 2: Install Required Software (Database and Web Server)
+Install a Database: Install MySQL or another compatible database on the VM (or a separate VM) to store ticketing data.
+Install Web Server: Set up Apache or IIS (on Windows) to serve the osTicket application. Enable the necessary firewall rules for web access.
+Download and Configure osTicket: Download osTicket, configure database settings, and upload the osTicket files to the web server’s directory.
 </p>
 <br />
 
@@ -50,6 +53,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Step 3: Configure DNS, SSL, and Monitoring
+Set Up DNS and SSL: Link a domain to the VM’s IP for easier access, and install an SSL certificate to enable HTTPS for security.
+Enable Monitoring and Backups: Use Azure Backup for data security and configure Azure Monitor to track resource usage, with alerts for high CPU or memory.
 </p>
 <br />
