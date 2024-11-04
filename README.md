@@ -52,17 +52,4 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Install Web Server: Set up Apache or IIS (on Windows) to serve the osTicket application. Enable the necessary firewall rules for web access.
   
   Download and Configure osTicket: Download osTicket, configure database settings, and upload the osTicket files to the web server’s directory.
-</p>
-<br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<h1>Step 3: Configure DNS, SSL, and Monitoring</h1>
-  
-Set Up DNS and SSL: Link a domain to the VM’s IP for easier access, and install an SSL certificate to enable HTTPS for security.
-
-Enable Monitoring and Backups: Use Azure Backup for data security and configure Azure Monitor to track resource usage, with alerts for high CPU or memory.
-</p>
-<br />
