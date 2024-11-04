@@ -28,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img width="809" alt="image" src="https://github.com/user-attachments/assets/dc2ef487-a418-4d09-b992-eeddbf37ddf3">
+<img width="565" alt="image" src="https://github.com/user-attachments/assets/fb77783d-c772-4ac9-886d-1518938314fd">
 </p>
 <p>
 <h1>Step 1: Set Up the Azure VM</h1>
@@ -42,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="809" alt="image" src="https://github.com/user-attachments/assets/dba6b50a-f8a2-4f93-8191-caca673a0f16">
 </p>
 <p>
 <h1>Step 2: Install Required Software (Database and Web Server)</h1>
