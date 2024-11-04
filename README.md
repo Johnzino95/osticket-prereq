@@ -31,10 +31,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1: Set Up the Azure VM
-Create an Azure VM: Use Azure Portal or CLI to create a VM with Ubuntu or Windows Server (choose based on your osTicket requirements).
-Select VM Size: Pick a size that meets the needs of the ticketing system, typically starting with a moderate size like Standard_B2s.
-Secure Access: Set up Network Security Groups (NSGs) to allow HTTP/HTTPS traffic for web access and restrict SSH/RDP access to secure IPs.
+<h1>Step 1: Set Up the Azure VM</h1>
+  
+  Create an Azure VM: Use Azure Portal or CLI to create a VM with Ubuntu or Windows Server (choose based on your osTicket requirements).
+
+  Select VM Size: Pick a size that meets the needs of the ticketing system, typically starting with a moderate size like Standard_B2s.
+
+  Secure Access: Set up Network Security Groups (NSGs) to allow HTTP/HTTPS traffic for web access and restrict SSH/RDP access to secure IPs.
 </p>
 <br />
 
