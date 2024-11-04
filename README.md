@@ -42,10 +42,11 @@ Secure Access: Set up Network Security Groups (NSGs) to allow HTTP/HTTPS traffic
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2: Install Required Software (Database and Web Server)
-Install a Database: Install MySQL or another compatible database on the VM (or a separate VM) to store ticketing data.
-Install Web Server: Set up Apache or IIS (on Windows) to serve the osTicket application. Enable the necessary firewall rules for web access.
-Download and Configure osTicket: Download osTicket, configure database settings, and upload the osTicket files to the web server’s directory.
+<h2>Step 2: Install Required Software (Database and Web Server)</h2>
+  
+  Install a Database: Install MySQL or another compatible database on the VM (or a separate VM) to store ticketing data.
+  Install Web Server: Set up Apache or IIS (on Windows) to serve the osTicket application. Enable the necessary firewall rules for web access.
+  Download and Configure osTicket: Download osTicket, configure database settings, and upload the osTicket files to the web server’s directory.
 </p>
 <br />
 
